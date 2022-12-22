@@ -13,6 +13,10 @@ body {
 }
 
 .header {
+    background: #FFFFFF;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px 
+rgba(46, 47, 66, 0.08);
 }
 .header-navigation {
 }
@@ -24,7 +28,6 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -37,7 +40,6 @@ font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
-display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
@@ -262,4 +264,72 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
+}
+
+.filter {
+    background: #F4F4FD;
+}
+
+.filter-btn {
+    background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+cursor: pointer;
+}
+
+.filter-btn:hover {
+    color: #FFFFFF;
+    background: #4D5AE5;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 4px;
+}
+
+.filter-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+
+.filter-btn:active {
+    color: #FFFFFF;
+    background: #4D5AE5;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.page {
+    color: #FFFFFF;
+}
+.page-list {
+}
+.page-item {
+}
+.page-img {
+    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(4074365.jpg);
+background-blend-mode: soft-light, normal;
+mix-blend-mode: normal;
+}
+.page-name {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.page-work {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
