@@ -5,8 +5,11 @@ body {
 }
 
 :root {
-    --pressed-state-color: #4D5AE5
+    --pressed-state-color: #4D5AE5;
+    --text-color: #434455;
+    --title-color: #2E2F42;
 }
+
 
 .list {
     list-style: none;
@@ -33,13 +36,13 @@ rgba(46, 47, 66, 0.08);
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 .web {
 color: var(--pressed-state-color);
 }
 .studio_logo {
-color: #2E2F42;
+color: var(--title-color);
 }
 .header-list {
 }
@@ -50,11 +53,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--title-color);
 }
 
 .header-link:hover {
-    color: #434455;
+    color: var();
 }
 
 .header-link:focus {
@@ -69,7 +72,7 @@ color: var(--pressed-state-color);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text-color);
 }
 
 .header-tel:hover, .header-tel:focus {
@@ -80,7 +83,7 @@ color: #434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text-color);
 }
 
 .header-mail:hover, .header-mail:focus {
@@ -88,7 +91,7 @@ color: #434455;
 }
 
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--title-color);
 }
 .hero-title {
 font-weight: 700;
@@ -97,7 +100,7 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
-background-color: #2E2F42;;
+background-color: var(--title-color);;
 }
 .hero-btn {
     font-family: inherit;
@@ -107,7 +110,6 @@ line-height: 1.18;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-text-transform: uppercase;
 color: #FFFFFF;
 background: var(--pressed-state-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -117,14 +119,13 @@ cursor: pointer;
 
 .hero-btn:hover {
     background: var(--pressed-state-color);
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 4px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+ 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .hero-btn:focus {
     background: var(--pressed-state-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 }
 
 .section {
@@ -136,14 +137,14 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--title-color);
 }
 
 .section-par {
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text-color);
 }
 
 .visual-hidden {
@@ -165,42 +166,35 @@ color: #434455;
 .hero-item {
 }
 .hero-name {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--title-color);
 }
 .hero-par {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text-color);
 }
 
 .article {
     background: #E5E5E5;
 }
 .article-name {
-    font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--title-color);
 }
 .article-list {
 }
 .article-img {
-    box-sizing: border-box;
+ box-sizing: border-box;
 width: 360px;
 height: 300px;
 background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), url(2368);
@@ -221,7 +215,7 @@ flex-grow: 0;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .main-list {
@@ -236,22 +230,21 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--title-color);
 }
 .main-work {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text-color);
 }
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--title-color);
 }
 
 .footer-logo {
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
@@ -276,9 +269,7 @@ color: #E7E9FC;
 .filter-btn {
     background: #F4F4FD;
 border: 1px solid #E7E9FC;
-border-radius: 4px;
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -292,22 +283,21 @@ cursor: pointer;
 .filter-btn:hover {
     color: #FFFFFF;
     background: var(--pressed-state-color);
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 4px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .filter-btn:focus {
     color: #FFFFFF;
     background: #404BBF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
 }
 
 .filter-btn:active {
     color: #FFFFFF;
     background: var(--pressed-state-color);
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+ 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter {
@@ -327,11 +317,11 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--title-color);
 }
 .filter-work {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--text-color);
 }
